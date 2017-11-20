@@ -1,5 +1,3 @@
-var UIconfig = require('../vue/UIconfig');
-
 var config = {};
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +35,7 @@ config.adviceWriter = {
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 // configurable in the UIconfig
-config.adapter = UIconfig.adapter;
+config.adapter = 'mongodb';
 
 config.sqlite = {
   path: 'plugins/sqlite',
